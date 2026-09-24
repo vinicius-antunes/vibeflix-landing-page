@@ -1,4 +1,5 @@
 :root {
+    /* Variáveis permitem alterar a paleta e a fonte em um único lugar. */
     --branco-principal: #FFFFFF;
     --cinza-secundario: #B9B4C7;
     --roxo-neon: #A855F7;
@@ -7,11 +8,13 @@
     --roxo-neon-efeito: #C084FC;
 }
 
+/* Remove os espaçamentos padrão aplicados pelos navegadores. */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Define a aparência geral da página. */
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
@@ -20,6 +23,7 @@ body {
     font-weight: 400;
 }
 
+/* Seção inicial com imagem de fundo e camada roxa translúcida. */
 .principal {
     background-image: linear-gradient(90deg, rgba(8, 5, 13, 0.2), rgba(67, 20, 100, 0.25)), url("img/Background.png");
     background-repeat: no-repeat;
@@ -28,12 +32,14 @@ body {
     text-align: center;
 }
 
+/* Divide as seções principais em duas colunas de tamanhos iguais. */
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
+/* Estilo compartilhado pelos botões e links de destaque. */
 .container__botao {
     background-color: var(--roxo-neon);
     border-radius: 5px;
@@ -44,6 +50,7 @@ body {
     margin-bottom: 1em;
 }
 
+/* Cria a versão transparente do botão principal. */
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
@@ -71,6 +78,7 @@ body {
     width: 80%;
 }
 
+/* Organiza imagem e texto das seções de apresentação. */
 .secundario {
     align-items: center;
     margin: 0 10em;
@@ -96,6 +104,7 @@ body {
     padding: 2em;
 }
 
+/* Exibe os dispositivos lado a lado utilizando Flexbox. */
 .dispositivos__lista {
     display: flex;
     justify-content: center;
@@ -117,6 +126,7 @@ body {
     color: var(--branco-principal);
 }
 
+/* Centraliza o conteúdo e os links do rodapé. */
 .rodape {
     text-align: center;
     margin: 5em 3em;
@@ -129,6 +139,7 @@ body {
     letter-spacing: 2px;
 }
 
+/* Aplica a cor roxa apenas à segunda parte do logotipo textual. */
 .rodape__logo span {
     color: var(--roxo-neon);
 }
@@ -152,6 +163,7 @@ body {
     font-size: 14px;
 }
 
+/* Efeitos visuais apresentados quando o usuário passa o mouse. */
 .lista__link a:hover {
     color: var(--roxo-neon);
 }
