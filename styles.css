@@ -67,7 +67,11 @@ body {
 }
 
 .container__imagem {
-    margin: 1em 0 2em 0;
+    width: 70%;              /* Diminui o tamanho da imagem */
+    max-width: 450px;        /* Impede que fique muito grande */
+    display: block;
+    margin: 1em auto 2em;
+    transform: translateX(-40px); /* Move para a esquerda */
 }
 
 .container__caixa {
