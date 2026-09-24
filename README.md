@@ -1,14 +1,38 @@
+# VibeFlix
 
-<p align="center"> <img src="https://imgur.com/BASzVop.png" alt="HTML e CSS: praticando HTML e CSS"> </p>
+Landing page fictícia de uma plataforma de streaming focada em filmes e séries de terror e suspense. O projeto foi desenvolvido por **Vinicius Antunes** para praticar a criação de interfaces com HTML e CSS.
 
-<hr>
+## Sobre o projeto
 
-<p align="center"> <img src="https://github.com/MonicaHillman/aluraplus/blob/aula04/img/Logo.png?raw=true" alt="Logo da alura plus"> </p>
-<p align="center">Um site para divulgação da Alura Plus, uma plataforma de streaming com os conteúdos educacionais da Alura.</p>
+A VibeFlix apresenta planos, benefícios e dispositivos compatíveis com uma identidade visual em preto e roxo neon. Todo o conteúdo é demonstrativo e a plataforma não representa um serviço real.
 
 ## Tecnologias
-* HTML
-* CSS
 
-## Screenshots
-![Screenshot da tela inicial do Alura Plus](https://imgur.com/nKUf7MK.png)
+- HTML5
+- CSS3
+- Google Fonts
+
+## Funcionalidades demonstradas
+
+- Estruturação semântica de uma landing page
+- Organização de estilos com variáveis CSS
+- Layout construído com CSS Grid e Flexbox
+- Estados visuais de interação nos botões e links
+- Uso de textos alternativos para acessibilidade
+
+## Como executar
+
+1. Baixe ou clone este repositório.
+2. Abra o arquivo `index.html` no navegador.
+
+```bash
+git clone https://github.com/vinicius-antunes/devstream-landing-page.git
+```
+
+## Autoria
+
+Desenvolvido por [Vinicius Antunes](https://github.com/vinicius-antunes).
+
+## Créditos
+
+Projeto educacional adaptado a partir de uma atividade prática da Alura. As imagens originais pertencem ao material de estudo utilizado como referência.
